@@ -1,8 +1,10 @@
 function sum(a,b){
-    if (typeof a == "fnum1" && typeof b == "snum2")
-    return (a + b);
-    else
-    alert("a+b")
+    // if (typeof a == "firstnum1" && typeof b == "secondnum2")
+    // return (a + b);
+    // else
+    // ("a+b")
+
+    
     }
     
    
