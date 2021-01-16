@@ -1,7 +1,7 @@
 function sum() {
-    const firstnum1 = document.getElementById("firstnum1").value;
+    const firstNum1 = document.getElementById("firstNum1").value;
     const secondNum2 = document.getElementById("secondNum2").value;
-    const sum = parseInt(firstnum1) + parseInt(secondNum2);
+    const sum = parseInt(firstNum1) + parseInt(secondNum2);
     document.getElementById("result").innerHTML = sum;
     console.log(sum)
 }
