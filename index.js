@@ -19,4 +19,21 @@ function bmi() {
     document.getElementById("resultbmi").innerHTML = parseInt(mass) / (parseInt(height * height))
     console.log(parseInt(mass) / (parseInt(height * height)))
 }
+// function factorial(){
 
+//     const number = document.getElementById("number").value;
+//      const n! = n*(n-1)
+
+//     document.getElementById("resultfactorial").innerHTML = number!
+// }
+
+function naturalnumber() {
+    const number = document.getElementById("number");
+    const x = 10
+    document.getElementById.innerHTML = x;
+
+    for (let i = 0; x <= x; i++) {
+        console.log(x);
+    }
+
+}
