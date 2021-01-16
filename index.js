@@ -19,21 +19,24 @@ function bmi() {
     document.getElementById("resultbmi").innerHTML = parseInt(mass) / (parseInt(height * height))
     console.log(parseInt(mass) / (parseInt(height * height)))
 }
-// function factorial(){
-
-//     const number = document.getElementById("number").value;
-//      const n! = n*(n-1)
-
-//     document.getElementById("resultfactorial").innerHTML = number!
-// }
+function factorial(){
+    let arr = [];
+    const factorialNumber = document.getElementById("factorialNumber").value;
+    let result =1
+    for (let i = factorialNumber; i > 0; i--) {
+        result=result*i;
+        arr.push(i);
+    }
+    document.getElementById("resultfactorial").innerHTML= arr + " - " + result;
+}
 
 function naturalnumber() {
-    const number = document.getElementById("number");
+    const number = document.getElementById("number").value;
     const x = 10
-    document.getElementById.innerHTML = x;
+    document.getElementById("x").innerHTML = x;
 
-    for (let i = 0; x <= x; i++) {
-        console.log(x);
+    for (let i = 1; i <= x; i++) {
+        console.log(i);
     }
 
 }
